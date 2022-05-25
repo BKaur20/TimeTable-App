@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">TimeTable</string>
+
+    <string-array name="Main">
+        <item>TimeTable</item>
+        <item>Subjects</item>
+        <item>Faculty</item>
+        <item>Resources</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>Fun and Easy way to summarise the hectic TimeTable of the week.</item>
+        <item>Summed up the syllabus for all the subjects of the semester.</item>
+        <item>Get to know your faculties at all times.</item>
+        <item>Will be added soon.</item>
+    </string-array>
+
+    <string-array name="Week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="Monday">
+        <item>UCS503 P -- CSED12/SE-1 LAB</item>
+        <item>UCS310 L -- CSED13/LT101</item>
+        <item>UCS411 L -- CSED3/LT101</item>
+        <item>UCS411 P -- CSED15/ML LAB</item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item>UCS414 P -- CSED14/NS-1 LAB</item>
+        <item>UMA035 L -- tietsom1/LT101</item>
+        <item>UCS414 L -- CSED14/LT101</item>
+        <item>UCS503 L -- CSED5/LT101</item>
+        <item>UCS415 L -- CSED9/LT101</item>
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item>UCS411 L -- CSED3/LT101</item>
+        <item>UMA035 L -- tietsom1/LT101</item>
+        <item>UCS415 L -- CSED16/LT101</item>
+        <item>UCS503 L -- CSED5/LT101</item>
+    </string-array>
+
+    <string-array name="Thursday">
+        <item>UCS414 L -- CSED13/LT101</item>
+        <item>UCS415 L -- CSED14/LT101</item>
+        <item>UMA035 L -- tietsom2/LT101</item>
+        <item>UMA035 P -- CSED/PG LAB</item>
+        <item>UCS310 L -- CSED13/LT101</item>
+        <item>UCS411 L -- CSED16/LT101</item>
+        <item>UCS503 L -- CSED12/LT101</item>
+
+    </string-array>
+
+    <string-array name="Friday">
+        <item>UCS415 P -- CSED15/DAS-1 LAB</item>
+        <item>UCS310 L -- CSED5/LT101</item>
+        <item>UCS310 P -- CSED7/DBMS-1 LAB</item>
+    </string-array>
+
+    <string-array name="Saturday">
+        <item>Self Study</item>
+        <item>Break</item>
+        <item>Self Study</item>
+    </string-array>
+
+    <string-array name="time1">
+        <item>11:20AM - 1:00PM</item>
+        <item>1:50PM - 2:40PM</item>
+        <item>2:40PM - 3:30PM</item>
+        <item>3:30PM - 5:10PM</item>
+    </string-array>
+
+    <string-array name="time2">
+        <item>11:20AM - 1:00PM</item>
+        <item>1:50PM - 2:40PM</item>
+        <item>2:40PM - 3:30PM</item>
+        <item>3:30PM - 4:20PM</item>
+        <item>4:20PM - 5:10PM</item>
+    </string-array>
+
+    <string-array name="time3">
+        <item>1:00PM - 1:50PM</item>
+        <item>1:50PM - 2:40PM</item>
+        <item>2:40PM - 3:30PM</item>
+        <item>3:30PM - 4:20PM</item>
+    </string-array>
+
+    <string-array name="time4">
+        <item>8:50AM - 9:40AM</item>
+        <item>9:40AM - 10:30AM</item>
+        <item>10:30AM - 11:20AM</item>
+        <item>11:20AM - 1:00PM</item>
+        <item>1:50PM - 2:40PM</item>
+        <item>2:40PM - 3:30PM</item>
+        <item>3:30PM - 4:20PM</item>
+    </string-array>
+
+    <string-array name="time5">
+        <item>8:00AM - 9:40AM</item>
+        <item>9:40AM - 10:30AM</item>
+        <item>10:30AM - 12:10PM</item>
+        <item>10:30AM - 12:10PM</item>
+        <item>12:10PM - 1:50PM</item>
+    </string-array>
+
+    <string-array name="time6">
+        <item>8:00AM - 10:30AM</item>
+        <item>10:30AM - 12:10PM</item>
+        <item>12:10PM - 3:30PM</item>
+    </string-array>
+
+    <string-array name="Subjects">
+        <item>UCS415 - Design and Analysis of Algorithms </item>
+        <item>UCS503 - Software Engineering </item>
+        <item>UMA035 - Optimisation Techniques </item>
+        <item>UCS411 - Artificial Intelligence </item>
+        <item>UCS414 - Computer Networks </item>
+        <item>UCS310 - Database Management System</item>
+    </string-array>
+
+    <string-array name="OperatingSystems">
+        <item> Operating System Principles</item>
+        <item>Concurrency</item>
+        <item>Scheduling and Dispatch</item>
+        <item>Memory Management.</item>
+        <item>File Systems</item>
+        <item>Deadlock</item>
+        <item>Virtual Machines</item>
+        <item>Device Management</item>
+
+    </string-array>
+
+    <string-array name="DiscreteMathsStructures">
+        <item>Sets, Relations, and Functions</item>
+        <item>Relations</item>
+        <item>Graphs Theory</item>
+        <item>Basic Logic</item>
+        <item>Proof Techniques and counting</item>
+        <item>Algebraic Structures</item>
+        <item>Book References - will add soon.</item>
+        <item>More content - will add soon.</item>
+        <item>Resources- will add soon.</item>
+    </string-array>
+
+    <string-array name="DataStructures">
+        <item>Analysing algorithms</item>
+        <item>Linear Data Structures</item>
+        <item>Searching and Sorting</item>
+        <item>Trees and their applications</item>
+        <item>Graphs and their applications</item>
+        <item>Problem Classes</item>
+        <item>Book References - will add soon.</item>
+        <item>More content - will add soon.</item>
+        <item>Resources- will add soon.</item>
+    </string-array>
+
+    <string-array name="CompArchitectureAndOrg">
+        <item>Basics of Computer Architecture</item>
+        <item>Register Transfer and Micro operations</item>
+        <item>Basic Computer Organization</item>
+        <item>Central Processing Unit</item>
+        <item>Computer Arithmetic</item>
+        <item>Memory Unit</item>
+        <item>Book References - will add soon.</item>
+        <item>More content - will add soon.</item>
+        <item>Resources- will add soon.</item>
+    </string-array>
+
+    <string-array name="NumericalAnalysis">
+        <item>Floating-Point Numbers</item>
+        <item>Non-Linear Equations</item>
+        <item>Systems and Eigen-Values</item>
+        <item>Interpolation and Approximations</item>
+        <item>Numerical Integration</item>
+        <item>Differential Equations</item>
+        <item>Book References - will add soon.</item>
+        <item>More content - will add soon.</item>
+        <item>Resources- will add soon.</item>
+    </string-array>
+
+    <string-array name="PracticalComputing">
+        <item>Operating System Basics</item>
+        <item>Network Administration</item>
+        <item>Code Debugging</item>
+        <item>Secure Coding Practices</item>
+        <item>Laboratory Work</item>
+        <item>Course Objectives</item>
+        <item>Book References - will add soon.</item>
+        <item>More content - will add soon.</item>
+        <item>Resources- will add soon.</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Unit 1</item>
+        <item>Unit 2</item>
+        <item>Unit 3</item>
+        <item>Unit 4</item>
+        <item>Unit 5</item>
+        <item>Unit 6</item>
+        <item>Unit 7</item>
+        <item>Unit 8</item>
+        <item>Unit 9</item>
+    </string-array>
+
+    <string-array name="faculty_name">
+        <item>Faculty 1</item>
+        <item>Faculty 2</item>
+        <item>Faculty 3</item>
+        <item>Faculty 4</item>
+    </string-array>
+
+    <string-array name="faculty1">
+        <item>2233445566</item>
+        <item>xyc@gmail.com</item>
+        <item>2st Floor,Block B</item>
+    </string-array>
+
+    <string-array name="faculty2">
+        <item>3344556677</item>
+        <item>xyw@gmail.com</item>
+        <item>1s Floor,Block A</item>
+    </string-array>
+
+    <string-array name="faculty3">
+        <item>4455667788</item>
+        <item>xyf@gmail.com</item>
+        <item>1st Floor,Block D</item>
+    </string-array>
+
+    <string-array name="faculty4">
+        <item>5566778899</item>
+        <item>xyg@gmail.com</item>
+        <item>3st Floor,Block C</item>
+    </string-array>
+
+
+</resources>

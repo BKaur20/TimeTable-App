@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyDetails">
+
+    <Toolbar
+        android:id="@+id/ToolbarFacultyDetails"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/design_default_color_primary"
+        tools:targetApi="lollipop">
+
+    </Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/facultyTop"
+        android:background="@color/design_default_color_primary"
+        android:layout_below="@+id/ToolbarFacultyDetails">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/ivFaculty"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Faculty Name"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:id="@+id/FacultySelName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/ivFaculty"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_secondary"
+        android:elevation="4dp"
+        android:id="@+id/CardView1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/facultyTop"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPhoneNumberLabel"
+                android:text="Phone Number"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/teal_700"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/tvPhoneNumberLabel"
+                android:id="@+id/line"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPhoneNumber"
+                android:text="99XXXXXXXX"
+                android:textIsSelectable="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/line"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_secondary"
+        android:elevation="4dp"
+        android:id="@+id/CardView2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/CardView1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvEmailLabel"
+                android:text="Email"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/teal_700"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/tvEmailLabel"
+                android:id="@+id/line1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvEmail"
+                android:text="abc@example.com"
+                android:textIsSelectable="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/line1"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_secondary"
+        android:elevation="4dp"
+        android:id="@+id/CardView3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/CardView2"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPlaceLabel"
+                android:text="Staff Room"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/teal_700"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/tvPlaceLabel"
+                android:id="@+id/line2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPlace"
+                android:text="XYZ Block, 1st Floor"
+                android:textIsSelectable="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/line2"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

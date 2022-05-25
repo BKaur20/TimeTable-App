@@ -1,0 +1,33 @@
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_on_secondary"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.timetable.Utils.LetterImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivLetterSubject"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSubject"
+            android:text="Days"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/ivLetterSubject"
+            android:textSize="24sp"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
